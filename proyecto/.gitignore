@@ -1,0 +1,23 @@
+# Dependencias
+node_modules/
+.venv/
+venv/
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Builds y cobertura
+dist/
+build/
+coverage/
+
+# IDE y sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
